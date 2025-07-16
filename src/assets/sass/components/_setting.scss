@@ -1,0 +1,134 @@
+.setting-btn {
+  min-width: 120px;
+}
+
+.pids-wrapper {
+  width: 100%;
+}
+.pid,
+.pids {
+  width: calc(10% - 10px);
+  height: 10px;
+  display: inline-block;
+  margin: 0px 5px;
+}
+.video-camera {
+  height: 380px;
+  transform: scaleX(-1);
+}
+.kiosk-name-text {
+  h5 {
+    width: 182px;
+  }
+}
+// .montserrat-font {
+//   font-family: "Montserrat", sans-serif;
+// }
+
+.setting-page {
+  .nav {
+    // width: 16%;
+  }
+  .nav-link {
+    color: #7f7f7f;
+    background-color: #f3f3f3 !important;
+    margin-bottom: 16px;
+    padding: 10px;
+    min-height: 80px;
+    border-radius: 0px !important;
+    border-left: 4px solid #7f7f7f !important;
+  }
+  .tab-content {
+    // width: 84%;
+  }
+  .nav-pills {
+    .nav-link.active {
+      color: var(--primary-color);
+      background-color: #238efa1f !important;
+      border-left: 4px solid #238dfa !important;
+      border-radius: 0px;
+    }
+    .show {
+      > .nav-link {
+        color: var(--primary-color);
+        background-color: #238efa1f !important;
+        border-left: 4px solid #238dfa !important;
+        border-radius: 0px;
+      }
+    }
+  }
+}
+.index-checkbox.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  gap: 8px;
+  cursor: pointer;
+  input {
+    display: none;
+  }
+}
+.checkbox-mark {
+  position: relative;
+  min-width: 26px;
+  height: 26px;
+  border: 0.2rem solid var(--black);
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    width: 80%;
+    height: auto;
+    transition: all ease 0.2s;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+.checkbox-mark-red {
+  border: 0.2rem solid #ff3600;
+}
+.checkbox-mark-green {
+  border: 0.2rem solid #05c399;
+  svg {
+    fill: #05c399;
+  }
+}
+.setting-background {
+  min-height: 565px;
+  padding: 20px;
+  position: relative;
+  background-color: #f3f3f3;
+}
+.w_75 {
+  width: 75%;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+.time-zone-text {
+  // position: absolute;
+  // bottom: 80px;
+  // left: 0;
+  // right: 0;
+  // text-align: center;
+}
+.bg-yellow {
+  max-width: 500px;
+  margin: auto;
+  background-color: #ff0;
+}
+.speaker-text canvas {
+  max-width: 100%;
+}
+@media only screen and (max-width: 1440px) {
+  .w_75 {
+    // width: 100%;
+  }
+}
+@media (max-width: 1399px) {
+  .setting-page .nav {
+    // width: 26%;
+  }
+}

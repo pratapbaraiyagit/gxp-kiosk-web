@@ -1,0 +1,49 @@
+.swal2-popup {
+  color: var(--white);
+  background: linear-gradient(180deg, #353a40 -56.47%, var(--black) 100%);
+  border-radius: 1.875rem;
+  border: 3px solid var(--border-gray);
+  .swal2-confirm {
+    border: 3px solid var(--border-blue);
+    background: linear-gradient(321deg, #016bb8 14.75%, #11a8fd 84.81%);
+    filter: blur(0.5px);
+    box-shadow: 10px 15px 40px 0px rgba(0, 0, 0, 0.5),
+      -10px -15px 40px 0px rgba(82, 89, 94, 0.5);
+    border-radius: 1rem;
+    min-width: 10rem;
+    font-size: 1.5rem;
+    padding: 1rem 1.3rem;
+    transition: all 0.3s ease-in-out;
+
+    &.custom-swal-confirm {
+      min-width: 6rem;
+    }
+
+    &:hover {
+      box-shadow: 0px -6px 4px 0px rgba(0, 0, 0, 0.25);
+      border-color: var(--border-gray);
+      background: var(--black);
+    }
+  }
+  .swal2-cancel {
+    &.custom-swal-cancel {
+      border: 3px solid red;
+      box-shadow: 10px 15px 40px 0px rgba(0, 0, 0, 0.5),
+        -10px -15px 40px 0px rgba(82, 89, 94, 0.5);
+      border-radius: 1rem;
+      min-width: 6rem;
+      font-size: 1.5rem;
+      padding: 1rem 1.3rem;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        box-shadow: 0px -6px 4px 0px rgba(0, 0, 0, 0.25);
+        border-color: var(--border-gray);
+        background: var(--black) !important;
+      }
+    }
+  }
+
+  .swal2-html-container {
+    font-size: 1.5rem;
+  }
+}
